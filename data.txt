@@ -1,0 +1,129 @@
+1. in ear for begginer
+data arr = [
+    {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-KZ-ZEX-Black-2_400x.jpg?v=1632918833",
+        name:"KZ - ZEX",
+        price:1,999,
+    },
+     {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-CCA-LYRA-01_400x.jpg?v=1659512980",
+        name:"CCA - LYRA",
+        price:1,799,
+    },
+     {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-Audio-E1000-BALCK-No-Mic-03_400x.jpg?v=1632819650",
+        name:"FINAL - E1000",
+        price:1,799,
+    },
+      {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-BLON-BL-03-Silver-1160-1160-6_400x.jpg?v=1593432193",
+        name:"BLON - BL-03",
+        price:1,990,
+    },
+       {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Moondrop-Chu-05_400x.jpg?v=1650360620",
+        name:"MOONDROP - CHU",
+        price:1,899,
+    },
+     {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-CCA-CRA-Plus-3_400x.jpg?v=1652356320",
+        name:"CCA - CRA+",
+        price:1,990,
+    },
+     {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-LETSHUOER-S12-12_400x.jpg?v=1658749480",
+        name:"LETSHUOER - S12",
+        price:12,990,
+    },
+     {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-TIN-HiFi-P1-MAX-11_400x.jpg?v=1658582480",
+        name:"TIN HIFI - P1 MAX",
+        price:12,990,
+    },
+      {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-7hz-x-crinacle-salnotes-dioko-1160-1160-7_400x.jpg?v=1657622815",
+        name:"7HZ - P1 MAX",
+        price:9,690,
+    },
+       {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Campfire-Audio-Honeydew-02_400x.jpg?v=1624099609",
+        name:"CAMPFIRE AUDIO - HONEYDEW",
+        price:19,690,
+    },
+       {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-IKKO-OH2-Grey-6_400x.jpg?v=1653559634",
+        name:"IKKO - KH2",
+        price:6,690,
+    },
+     {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-iBasso-IT01X-Black-04_400x.jpg?v=1634645565",
+        name:"IBASSO - IT01x",
+        price:10,990,
+    },
+    
+]
+
+
+2. headphone for begginers
+dataarr = [
+      {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Meze-99-Classics-gold-1160-1160-2_400x.jpg?v=1591901373",
+        name:"MEZE - 99 CLASSICS",
+        price:28,990,
+    },
+     {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Sennheiser-HD-660-S-1160-1160-2_400x.jpg?v=1593681951",
+        name:"SENNHEISER - HD 660 S",
+        price:29,990,
+    },
+     {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/HiFiMAN-HE400SE-01_400x.jpg?v=1614231957",
+        name:"HIFIMAN - HE 400SE",
+        price:10,990,
+    },
+    {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-DT-880-Pro-1160-1160-1_400x.jpg?v=1599208178",
+        name:"BEYERDYNAMIC - DT 880 PRO",
+        price:15,990,
+    },
+     {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-V-MODA-M-200-1160-1160_500x.jpg?v=1588002899",
+        name:"V-MODA - M-200",
+        price:24,990,
+    },
+      {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-Edition-XS-1160-1160-04_500x.jpg?v=1641460416",
+        name:"HIFIMAN - EDITION XS",
+        price:37,990,
+    },
+      {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-grado-SR60x-01_500x.jpg?v=1648039536",
+        name:"GRADO - SR60X",
+        price:10,990,
+    },
+       {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/beyerdynamic-dt-770-pro-headphone-zone-13980464185407_500x.jpg?v=1579662488",
+        name:"BEYERDYNAMIC - DT770PRO",
+        price:10,990,
+    },
+     {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-Sundara-1160-1160-2_500x.jpg?v=1592332661",
+        name:"HIFIMAN - SUNDARA (2022)",
+        price:27,990,
+    },
+    {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Audio-technica-m50x-1160-1160-Black_500x.jpg?v=1590592477",
+        name:"AUDIO-TECHNICA- ATH-M50x",
+        price:11,990,
+    },
+    {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/sennheiser-hd-569-headphone-zone-29093551111_500x.jpg?v=1579780219",
+        name:"SENNHEISER - HD 569",
+        price:8,990,
+    },
+      {
+        img: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-dt-990-pro-1160-1160-5_500x.jpg?v=1598946254",
+        name:"BEYERDYNAMIC - DT 990 PRO",
+        price:14,990,
+    },
+]

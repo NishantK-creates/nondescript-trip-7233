@@ -1,0 +1,37 @@
+#upper{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: .85em;
+    justify-content: space-between;
+}
+div>ul{
+    list-style-type: none;
+}
+div>ul>li{
+    margin-bottom: 10px;
+}
+#social{
+    display: flex;
+}
+#social>a{
+    height: 50px;
+    width: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+i{
+   padding: 20px;
+   font-size: 1.5em;
+}
+#lower{
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor:none;
+}
+
+#container{
+    height: auto;
+    margin-top: 80px;
+}

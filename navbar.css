@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    height: 80px;
+    width: 98vw;
+
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid black;
+}
+#navbar>.logo{
+    width: 15%;
+    height: 100%;
+    padding: 15px;
+   border: 1px solid red;
+}
+.functions{
+    display: flex;
+    font-size: 1em;
+    list-style-type: none;
+    font-weight: bold;
+    cursor:pointer;
+    align-items: center;
+    gap: 30px;
+}
+.functions{
+    border: 1px solid green;
+    width: 100%;
+}
+#cart_slider{
+    color: violet;
+    height: 100vh;
+    width: 30vw;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 20px;
+}
+
+
