@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9722e43dac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <style>
+        #register{
+            text-align: center;
+            height: 50%;
+            width: 50%;
+            padding: 50px;
+            margin: auto;
+        }
+        #register>input{
+            height: 50px;
+            border-radius: 30px;
+            width: 70%;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            padding-left: 10px;
+            margin-bottom: 30px;
+            border-color: none;
+            font-size: large;
+        }
+        #submit{
+            height: 60px;
+            border-radius: 30px;
+            width: 75%;
+            color: white;
+            border-color: none;
+            background-color: blue;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav></nav>
+    <form>  <div id="register">
+        <h1>REGISTER</h1>
+        <p>Please enter your email & Password</p>
+        <br>
+        <br>
+        <input type="text" id="fname" placeholder="First Name">
+        <input type="text" id="lname" placeholder="Last Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <input type="submit" value="LOGIN" id="submit">
+      
+    </div></form>
+    <footer></footer>
+</body>
+<script src="navbar.js"></script>
+<script src="footer.js"></script>
+</html>
+
+<script>
+   let form = document.querySelector("form");
+   let userDetails = JSON.parse(localStorage.getItem("user")) || [];
+   form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    let obj = {
+        fname: form.fname.value,
+        lname: form.lname.value,
+        email: form.email.value,
+        password: form.password.value,
+    }
+    userDetails.push(obj);
+    localStorage.setItem("user", JSON.stringify(userDetails));
+    alert("Registration Successful");
+    window.location.href="login.html";
+   })
+
+
+</script>
