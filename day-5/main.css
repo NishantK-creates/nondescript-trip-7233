@@ -1,0 +1,351 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#audiophile>div{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  font-size: .8em;
+  gap: 10px;
+  padding: 10px;
+  margin-top: 400px;
+}
+#audiophile h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#audiophile>div>div{
+
+    text-align: center;
+}
+#welove{
+    text-align: center;
+    margin-top: 50px;
+}
+#videoad{
+    margin-top: 50px;
+}
+#simpl_bajaj{
+    margin-top: 50px;
+    background-color: rgb(255, 252, 252);
+}
+#simpl_bajaj>div{
+    display: flex;
+    width: 65%;
+    margin: auto;
+}
+#simpl_bajaj>div>div{
+    width: 50%;
+    margin: 10px;
+}
+#simpl_bajaj>div>div>h2{
+    font-weight: bold;
+}
+#new_launches{
+    text-align: center;
+   
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+.slides{
+    display: flex;
+    gap: 30px;
+    margin-left:80px;
+}
+.slides>div{
+    width: 250px;
+    height: 300px;
+
+}
+.slides>div>img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+}
+.slides>div>h1{
+    position: relative;
+    color: white; 
+    top: 70px;
+    text-align: center;
+    font-size: 1.7em;
+}
+.slides>div>h5{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    color: white; 
+}
+.slides>div>img:hover{
+    padding: 10px;
+}
+#confused{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#confused>img{
+    height:100%;
+    width: 100%;
+    position:absolute;
+}
+#confused>.box{
+    position:relative;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    top: 100px;
+    display:block;
+    text-align: center;
+    padding: 50px;
+    border-radius: 4%;
+}
+#confused>.box>button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: blue;
+    border-style: none;
+}
+#brands{
+    background-color: rgb(255, 252, 252);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#brands>.text{
+    text-align: center;
+    height: 180px;
+    width: 100%;
+    
+}
+#brands>.logos{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    height: auto;
+    
+}
+#brands>.logos>img{
+    height: auto;
+    width: 100%;
+}
+#brands>.button{
+  height: 200px;
+  width: 100%;
+  
+}
+#brands>.button>button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: grey;
+    border-style: none;
+  margin-top: 50px;
+  margin-left: 570px;
+}
+#events>.texts{
+    text-align: center;
+    height: 180px;
+    width: 100%;
+    
+}
+#events>.content{
+    width: 70%;
+    height: auto; 
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+
+}
+#events>.content>div{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+#events>.content>div>div{
+ text-align: center;
+ 
+ width: 400px;
+ height: 250px;
+ padding: 20px;
+}
+#events>.content>div>img{
+    height: 400px;
+    padding: 10px;
+    border-radius: 5%;
+}
+#adwall2>img{
+    margin-bottom: 100px;
+    height: 500px;
+    width: 100%;
+}
+#headphonezone>.text{
+height: 100px;
+text-align: center;
+}
+#headphonezone>.content{
+display: flex;
+width: 70%;
+height: auto;
+margin: auto;
+}
+#headphonezone>.content>.img>img{
+width: 100%;
+height: 450px;
+border-bottom-left-radius: 5%;
+border-top-left-radius: 5%;
+}
+#headphonezone>.content>.text{
+height: 450px;
+border-bottom-right-radius: 5%;
+border-top-right-radius: 5%;
+color: white;
+background-color: gray;
+padding: 30px;
+padding-top: 50px;
+}
+#review{
+height: 400px;
+width: 100%;
+text-align: center;
+padding-top: 100px;
+font-size: 1.5em;
+padding-bottom: 100px;
+}
+#newsreport{
+background-color: lightgrey;
+text-align: center;
+padding: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#newsreport>div{
+display:flex;
+justify-content: space-evenly;
+}
+#values{
+background-color: blueviolet;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#values>.text{
+text-align: center;
+margin-bottom: 20px;
+}
+#values>.values{
+display: flex;
+justify-content: space-between;
+gap: 20px;
+}
+#clubaudiophile{
+background-color: rgb(50, 49, 49);
+display: flex;
+justify-content: space-evenly;
+color: white;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#clubaudiophile>div>button{
+width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: black;
+    background-color: yellow;
+    border-style: none;
+}
+#audiophileform{
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#audiophileform>h1{
+color: red;
+}
+#newsletter>img{
+    height:500px;
+    width: 100%;
+    position:absolute;
+
+    
+}
+#newsletter>.box{
+    margin-bottom: 200px;
+    position: relative;
+    background-color: white;
+    top: 100px;
+    left: 100px;
+    width: 400px;
+    height: 300px;
+    padding: 40px;
+}
+#everyday>.text{
+    padding-top: 50px;
+    height: 150px;
+    text-align: center;
+}
+#everyday>.content{
+display: flex;
+height: auto;
+
+padding: 20px;
+margin-bottom: 200px;
+}
+
+#everyday>.content>.grid1,.grid3{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+#everyday>.content>.grid1>div{
+width: 205px;
+height: 250px;
+
+}
+#everyday>.content>.grid1>div>img{
+width: 100%;
+height: 100%;
+padding: 10px;
+}
+#everyday>.content>.grid2>div{
+width: 430px;
+height: 503px;
+}
+#everyday>.content>.grid2>div>img{
+width: 100%;
+height: 100%;
+padding: 10px;
+}
+#everyday>.content>.grid3>div{
+width: 205px;
+height: 250px;
+}
+#everyday>.content>.grid3>div>img{
+width: 100%;
+height: 100%;
+padding: 10px;
+}
+#adwall1>img{
+height: 550px;
+width: 100%;
+position: absolute;
+}
+#adwall1>.text{
+position: relative;
+left: 700px;
+color: white;
+top: 100px;
+}
+#adwall1>.text>h1{
+font-size: 3.5em;
+}
+#adwall1>.text>button{
+height: 50px;
+width: 150px;
+border-radius: 30px;
+border-style: none;
+}

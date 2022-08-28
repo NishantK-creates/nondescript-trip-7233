@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    height: 80px;
+    width: 98vw;
+
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+#navbar>.logo{
+    width: 15%;
+    height: 100%;
+    padding: 15px;
+   
+}
+.functions>ul{
+    display: inline-flex;
+    font-size: 1em;
+    list-style-type: none;
+    font-weight: bold;
+    cursor:pointer;
+    align-items: center;
+    gap: 30px;
+}
+
+.functions ul li a {
+    text-decoration: none;
+    color: black;
+}
+.functions ul li a:hover{
+    text-decoration: underline;
+}
+.sub-menu-1{
+    display: none;
+}
+.functions ul li:hover .sub-menu-1{
+    display:block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -20px;
+    padding: 10px;
+}
+.functions ul li:hover .sub-menu-1 ul{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+#cart_slider{
+    height: 100vh;
+    background-color: white;
+    max-width: 500px;
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    display: block;
+}
+#search_slider{
+    height: 100vh;
+    background-color: white;
+    max-width: 500px;
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    right: 0px;
+    width:100%;
+    display: block;
+}
+#cartbtn, #searchbtn{
+    color: black;
+    background-color: white;
+    border-style: none;
+    font-size: 1.1em;
+    font-weight: 200;
+
+}
+#search_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 10px;
+}
+#search_container>input{
+    height: 50px;
+    width: 300px;
+    font-size: 1.2em;
+    border-radius: 30px;
+}
+#search_container>i{
+  font-size: 1.8em;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+#search_container>button{
+    background-color: white;
+    border-style: none;
+    font-size: 1.5em;
+}
+#cart_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 10px;
+}
+#cart_container>input{
+    height: 50px;
+    width: 300px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+#cart_container>i{
+  font-size: 1.8em;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+#cart_container>button{
+    background-color: white;
+    border-style: none;
+    font-size: 1.5em;
+}
+
+#start{
+    color: white;
+    background-color: blue;
+    border-style: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 180px;
+    margin-left: 160px;
+    margin-top: 250px;
+}
